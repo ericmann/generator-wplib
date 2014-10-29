@@ -5,6 +5,7 @@
 	"keywords": ["yeoman-generator", "wordpress"],
 	"dependencies": {
 		"yeoman-generator": "^0.17.3",
-		"chalk": "^0.2.1"
+		"chalk": "^0.2.1",
+		"async": "^0.9.0"
 	}
 }
