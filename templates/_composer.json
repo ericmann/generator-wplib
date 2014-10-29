@@ -1,16 +1,16 @@
 {
-	"name": "<%= _.slugify( opts.namespace ) %>/<%= _.slugify( opts.projectName ) %>",
+	"name": "<%= opts.gitUser %>/<%= _.slugify( opts.projectName ) %>",
 	"description": "<%= opts.description %>",
 	"version": "0.0.1",
 	"type": "wordpress-plugin",
 	"keywords": [],
-	"homepage": "<%= opts.projectHome %>",
+	<% if ( opts.projectHome ) { %>"homepage": "<%= opts.projectHome %>",<% } %>
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "<%= ( '' !== opts.authorName ) ? opts.authorName : 'me' %>",
 			"email": "<%= opts.authorEmail %>",
-			"homepage": "<%= opts.authorUrl %>",
+			<% if ( opts.authorUrl ) { %>"homepage": "<%= opts.authorUrl %>",<% } %>
 			"role": "Developer"
 		}
 	],

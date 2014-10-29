@@ -1,0 +1,4 @@
+<%= opts.projectName %>
+===========
+
+<%= opts.description %>
