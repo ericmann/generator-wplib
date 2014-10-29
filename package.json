@@ -1,0 +1,10 @@
+{
+	"name": "generator-wplib",
+	"version": "0.1.0",
+	"description": "Template generator for new WordPress-related libraries.",
+	"keywords": ["yeoman-generator", "wordpress"],
+	"dependencies": {
+		"yeoman-generator": "^0.17.3",
+		"chalk": "^0.2.1"
+	}
+}
