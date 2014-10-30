@@ -1,6 +1,6 @@
 <?php
 
-namespace <%= opts.namespace %>\<%= opts.className %>;
+namespace <%= opts.namespace %>\<%= opts.className %>\v1_0;
 
 use PHPUnit_Framework_TestResult;
 use Text_Template;

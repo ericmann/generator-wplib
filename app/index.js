@@ -120,6 +120,10 @@ var LibGenerator = generator.Base.extend(
 			this.copy( '_phpunit.xml.dist', 'phpunit.xml.dist' );
 			this.copy( '_bootstrap.php.dist', 'bootstrap.php.dist' );
 			this.template( '_TestCase.php', 'tests/test-tools/TestCase.php' );
+		},
+
+		bootstrap: function() {
+			this.template( '_app.php', this.opts.className + '.php' );
 		}
 	}
 );
