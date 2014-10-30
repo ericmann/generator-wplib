@@ -2,7 +2,7 @@
 	"name": "<%= opts.gitUser %>/<%= _.slugify( opts.projectName ) %>",
 	"description": "<%= opts.description %>",
 	"version": "0.0.1",
-	"type": "wordpress-plugin",
+	"type": "wordpress-library",
 	"keywords": [],
 	<% if ( opts.projectHome ) { %>"homepage": "<%= opts.projectHome %>",<% } %>
 	"license": "MIT",
